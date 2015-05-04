@@ -3410,14 +3410,19 @@ mixpanel.init("91430bc5399de09992079a430e19dcc2");</script><!-- end Mixpanel -->
 <script>
 lp.jQuery(document).ready(function() {
   
+  var variant = document.location.href;
+  try {
+    variant = document.location.pathname.split(".")[0].split("/")[1];
+  } catch (err) {}
+  
+  
   mixpanel.register({
-    "url" : document.location.href
+    "url" : document.location.href,
+    "variant" : variant
   });
   
   // Mixpanel
-  mixpanel.track("Page loaded", {
-    "Page Variant": "tumblr-follow-maker"
-  });
+  mixpanel.track("Page loaded", {});
   
   
   // Click tracking
@@ -3428,10 +3433,9 @@ lp.jQuery(document).ready(function() {
     // GA
     ga('send', 'event', 'tumblr-follow-maker', 'App download clicked', '', 1);
     
+    
     // Mixpanel
-    mixpanel.track("App download clicked", {
-      "Page Variant": "tumblr-follow-maker"
-    });
+    mixpanel.track("App download clicked", {});
     
   }); // click
   
@@ -3489,9 +3493,9 @@ WebFont.load(lp.webFontLoad);
 <div class="lplh-18" style="text-align: right;">
 	&nbsp;</div>
 <div class="lplh-38" style="text-align: right;">
-<span style="font-size:24px;"><font color="#ffffff" face="old standard tt">Get Automatic Likes<br>
-	Get Automatic Reblogs<br>
-	Get Automatic Follows</font></span>
+<span style="font-size:24px;"><font color="#ffffff" face="old standard tt">Does Automatic Likes<br>
+	Does Automatic Reblogs<br>
+	Does Automatic Follows</font></span>
 </div>
 </div>
 <a class="lp-element lp-pom-button" id="lp-pom-button-19" href="javascript:void(0);" target=""><span class="label">TRY APP FOR FREE</span></a>
@@ -3810,7 +3814,7 @@ WebFont.load(lp.webFontLoad);
 </div>
 <div class="lp-element lp-pom-text nlh" id="lp-pom-text-138">
 <p class="lplh-22" style="text-align: right;">
-<span style="font-size:14px;"><span style="color: rgb(255, 255, 255); font-family: 'old standard tt'; text-align: right;">More interactions get you more followers</span></span>
+<span style="font-size:14px;"><span style="color: rgb(255, 255, 255); font-family: 'old standard tt'; text-align: right;">Reach out to more people, make more followers!</span></span>
 </p>
 </div>
 </div>
