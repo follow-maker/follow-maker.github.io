@@ -18,39 +18,24 @@ twitter
 
 
 
-instagram
-- Hispanic (50)
--- Get
-=> http://follow-maker.github.io/instagram-follow-maker.html?utm_source=facebook&utm_medium=desktop_side&utm_campaign=instagram_get_followers_hispanic_15-30_M
-
-- US + Indian (100)
--- Get
-=> http://follow-maker.github.io/instagram-follow-maker.html?utm_source=facebook&utm_medium=desktop_side&utm_campaign=instagram_get_followers_US-IN_15-30_M
-
-
-
 
 Campaign
-- get_followers
+- grow_twitter_followers
 Adsets
-- twitter_hispanic_15-30_M (50) [tweet, twitter, twitter, tweetdeck, advertising]
-- twitter_US-IN_15-30_M (100)
-- instagram_hispanic_15-30_M (50)
-- instagram_US-IN_15-30_M (100)
-
-
-Get New Twitter Followers
-App to automate Follows & Favorites on Twitter. Get more Followers. Be Famous.
-
-Get New Instagram Followers
-App to automate Likes & Follows on Instagram. Get more Followers. Be Famous.
+- twitter_low_cost_geo
+-- http://follow-maker.github.io/twitter-follow-maker.html?utm_source=facebook&utm_medium=facebook_cpc&utm_campaign=grow_twitter_followers__twitter_low_cost_geo
+- twitter_high_cost_geo
+-- http://follow-maker.github.io/twitter-follow-maker.html?utm_source=facebook&utm_medium=facebook_cpc&utm_campaign=grow_twitter_followers__twitter_high_cost_geo
 
 
 
+Grow Twitter Followers
+App to automate Follows & Favorites on Twitter. Grow more Followers. Be famous!
 
 
+GOOGLE PLAY
+http://follow-maker.github.io/twitter-follow-maker.html?utm_source=google_play&utm_medium=direct&utm_campaign=grow_twitter_followers_google_play_direct
 
-http://follow-maker.github.io/instagram-follow-maker.html?utm_source=facebook&utm_medium=desktop_side&utm_campaign=instagram_get_followers_trending_countries_15-30
 
 
 
